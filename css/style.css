@@ -1,0 +1,102 @@
+/* Header */
+.header{
+	background: #48F168
+}
+.txt-nav ul li a{
+	color: white !important;
+	text-transform: uppercase;
+}
+.txt-nav ul li:hover{
+	background: #60F71E
+}
+
+/* section */
+.card-catelogy{
+	background: #046634;
+	padding: 15px
+}
+.bd-catelogy{
+	border: 0;
+}
+.card-catelogy h5 a{
+	color: #F6FE13;
+	text-transform: uppercase;
+	text-decoration: none
+}
+
+/* <!-- List product --> */
+.cd-list{
+	background: #ebebeb
+}
+.cd-list img{
+	margin-top: 30px;
+}
+.txt-list{
+	color: #046634
+}
+.price-list{
+	color: #046634;
+	font-weight: bold
+}
+.card{
+	border: none;
+}
+.bd-list{
+	border: 1px solid #046634;
+	padding: 3px
+}
+.icon{
+	cursor: pointer
+}
+.spnb{
+	position: relative;
+	margin: auto;
+	text-align: center
+}
+.spnb p{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold
+}
+
+/* section- service */
+.service
+{
+	width: 100%;
+	background: #046634;
+}
+.num{
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 10px
+}
+.num span{
+	font-size: 25px
+}
+.s-item span{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white
+}
+@media screen and (max-width: 425px){
+	.s-fix{
+		font-size: 10px !important
+	}
+}
+
+/* Footer */
+.f-line{
+	border-top: 2px solid #94c644;
+	text-align: center
+}
+.f-icon{
+	cursor: pointer
+}
